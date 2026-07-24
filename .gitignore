@@ -1,10 +1,27 @@
-# Private source material — not for the public repo
-foto_nonno/
+# ===== Sito vetrina "Peppino Zola" — .gitignore =====
+# Online (repo pubblica) deve finire SOLO il sito:
+#   index.html, assets/, CNAME, robots.txt, sitemap.xml, README.md
+
+# --- Materiali di lavoro — NON pubblicare ---
 _to_delete/
-*.docx
+# scansioni originali (il sito usa assets/img/)
+foto_nonno/
+Curriculum Peppino.docx
 PROMPT_per_Claude_Code.md
+CORREZIONE.md
 riferimento_stile_A.html
 
-# Tooling
-.claude/
-__pycache__/
+# --- Sistema / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+node_modules/
+.cache/
+
+# --- Segreti (mai committare) ---
+.env
+*.key
+*.pem
