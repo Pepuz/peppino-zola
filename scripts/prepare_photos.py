@@ -8,13 +8,11 @@ from PIL import Image
 import os, glob
 
 src = 'foto_nonno'; dst = 'assets/img'; os.makedirs(dst, exist_ok=True)
-files = sorted(glob.glob(src + '/*.png'))   # ordine: (2),(3),(4),(5),(6),(7),(8),(9), poi senza numero
+files = sorted(glob.glob(src + '/*.png'))   # ordine: (3),(4),(6),(7),(8),(9), poi senza numero
 T = Image.Transpose
 plan = [
-    ('giovinezza-esterno-1',  T.ROTATE_180),  # (2)
-    ('giovinezza-esterno-2',  T.ROTATE_180),  # (3)
-    ('giovinezza-ritratto-1', T.ROTATE_180),  # (4)
-    ('giovinezza-ritratto-2', T.ROTATE_180),  # (5)
+    ('giovinezza-esterno',    T.ROTATE_180),  # (3)
+    ('giovinezza-ritratto',   T.ROTATE_180),  # (4)
     ('fiera-milano',          T.ROTATE_180),  # (6)
     ('comunione-liberazione', T.ROTATE_90),   # (7)
     ('matrimonio',            T.ROTATE_90),   # (8)

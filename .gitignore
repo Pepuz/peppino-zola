@@ -1,5 +1,6 @@
 # Private source material — not for the public repo
 foto_nonno/
+_to_delete/
 *.docx
 PROMPT_per_Claude_Code.md
 riferimento_stile_A.html

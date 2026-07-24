@@ -28,7 +28,7 @@ function openLightbox(fig) {
 }
 function closeLightbox() {
   lb.classList.remove('on');
-  lbImg.src = '';
+  lbImg.removeAttribute('src');
   if (lastFocus) lastFocus.focus();
 }
 document.querySelectorAll('figure.g').forEach(fig => {
