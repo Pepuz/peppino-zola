@@ -43,6 +43,8 @@ nav a:hover,nav a:focus-visible{color:var(--gold)}
 .portrait::after{content:"";position:absolute;inset:6px;border:1px solid var(--gold);pointer-events:none;opacity:.5}
 .portrait img{width:100%;height:auto;display:block;filter:grayscale(.1) contrast(1.02)}
 .portrait figcaption{margin-top:10px;font-style:italic;font-size:15px;color:var(--muted);text-align:center}
+.bio-portrait{max-width:340px;margin:46px auto 0}
+.bio-portrait img{filter:none}
 
 /* sections */
 section{padding:74px 0;border-top:1px solid var(--line);scroll-margin-top:70px}
