@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://peppino.it/sitemap.xml
+Sitemap: https://peppinozola.it/sitemap.xml
