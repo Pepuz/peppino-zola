@@ -43,7 +43,9 @@ nav a:hover,nav a:focus-visible{color:var(--gold)}
 .portrait::after{content:"";position:absolute;inset:6px;border:1px solid var(--gold);pointer-events:none;opacity:.5}
 .portrait img{width:100%;height:auto;display:block;filter:grayscale(.1) contrast(1.02)}
 .portrait figcaption{margin-top:10px;font-style:italic;font-size:15px;color:var(--muted);text-align:center}
-.bio-portrait{max-width:340px;margin:46px auto 0}
+.bio-grid{display:grid;grid-template-columns:1.5fr .82fr;gap:46px;align-items:start}
+.bio-grid .bio{max-width:none}
+.bio-portrait{margin:6px 0 0}
 .bio-portrait img{filter:none}
 
 /* sections */
@@ -153,6 +155,8 @@ html.js .reveal.in{opacity:1;transform:none}
   nav.open{display:flex}
   nav a{padding:14px 32px}
   .hero-grid,.book{grid-template-columns:1fr;gap:34px}
+  .bio-grid{grid-template-columns:1fr;gap:30px}
+  .bio-portrait{max-width:360px;margin:4px auto 0}
   .portrait{max-width:400px}
   .tl::before{left:22px}
   .tl-item{width:100%;left:0!important;text-align:left!important;padding:14px 0 14px 52px}
