@@ -97,10 +97,6 @@ section{padding:74px 0;border-top:1px solid var(--line);scroll-margin-top:70px}
 .pub{display:flex;gap:24px;background:#fff;border:1px solid var(--line);padding:24px;box-shadow:0 14px 30px -24px rgba(22,35,59,.5)}
 .pub .pub-cover{flex:0 0 110px;align-self:start;box-shadow:0 12px 26px -16px rgba(22,35,59,.6)}
 .pub .pub-cover img{width:100%;height:auto;display:block}
-.pub .cover-ph{aspect-ratio:2/3;background:linear-gradient(150deg,#1c2c48,#16233b);color:#f7f3ea;padding:16px 13px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;position:relative}
-.pub .cover-ph::after{content:"";position:absolute;inset:6px;border:1px solid rgba(152,118,63,.6)}
-.pub .cover-ph .ct{font-family:"Playfair Display",serif;font-size:15px;line-height:1.18}
-.pub .cover-ph .cm{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#c6a463}
 .pub-grid > .pub:last-child:nth-child(odd){grid-column:1 / -1}
 .pub .tag{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
 .pub h3{font-size:22px;margin:6px 0 4px}
